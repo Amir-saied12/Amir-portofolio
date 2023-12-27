@@ -1,0 +1,760 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Roboto;
+    text-transform: capitalize;
+    background-color: #f0efef94;
+}
+@font-face {
+    font-family:Roboto ;
+    src: url(../font/Roboto/Roboto-Black.ttf);
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    width: 100%;
+    display: block;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.clr{
+    clear: both;
+}
+/*  */
+
+.header{
+    width: 100%;
+    background-color: #0779e4;
+    padding: 25px;
+    position: fixed;
+    z-index: 2;
+}
+.header .container h3{
+    font-size: 20px;
+    font-weight: 800;
+    color: #fff;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+.header .container ul{
+   display: inline-block;
+   padding-left: 80px;
+}
+.header .container li{
+    float: right;
+    color: #fff;
+    list-style-type: none;
+    padding-left: 49px;
+}
+.header .container li a{
+    color: #fff;
+    text-decoration: none;
+}
+/*  */
+
+.bg-img{
+    height: 700px;
+    background-image: url(../img/bg.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+.bg-img .txt-bg{
+    width: 50%;
+    float: left;
+    padding-top: 140px;
+    color: #fff;
+}
+.bg-img .txt-bg h1{
+    font-size: 58px;
+    padding-bottom: 20px;
+}
+h1::after{
+    content: "_";
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-name: motionh1;
+}
+@keyframes motionh1 {
+    0%{content: "I_";}
+    1%{content: "I l_";}
+    2%{content: "I lo_";}
+    3%{content: "I lov_";}
+    4%{content: "I love_";}
+    5%{content: "I love d_";}
+    6%{content: "I love de_";}
+    7%{content: "I love des_";}
+    8%{content: "I love desi_";}
+    9%{content: "I love desig_";}
+    10%{content: "I love design_";}
+    10.9%{content: "I love design_";}
+    11%{content: "I love desig_";}
+    12%{content: "I love desi_";}
+    13%{content: "I love des_";}
+    14%{content: "I love de_";}
+    15%{content: "I love d_";}
+    16%{content: "I love_";}
+    17%{content: "I lov_";}
+    18%{content: "I lo_";}
+    19%{content: "I l_";}
+    20%{content: "I_";}
+    21%{content: "_";}
+    22%{content: "A_";}
+    23%{content: "A d_";}
+    24%{content: "A de_";}
+    25%{content: "A dev_";}
+    26%{content: "A deve_";}
+    27%{content: "A devel_";}
+    28%{content: "A develo_";}
+    29%{content: "A develop_";}
+    30%{content: "A develope_";}
+    31%{content: "A developer_";}
+    32%{content: "A developer_";}
+    33%{content: "A develope_";}
+    34%{content: "A develop_";}
+    35%{content: "A develo_";}
+    36%{content: "A devel_";}
+    37%{content: "A deve_";}
+    38%{content: "A dev_";}
+    39%{content: "A de_";}
+    40%{content: "A _";}
+    41%{content: "I_";}
+    42%{content: "I l_";}
+    43%{content: "I lo_";}
+    44%{content: "I lov_";}
+    45%{content: "I love_";}
+    46%{content: "I love t_";}
+    47%{content: "I love to_";}
+    48%{content: "I love to d_";}
+    49%{content: "I love to de_";}
+    50%{content: "I love to dev_";}
+    51%{content: "I love to deve_";}
+    52%{content: "I love to devel_";}
+    53%{content: "I love to develo_";}
+    54%{content: "I love to develop_";}
+    55%{content: "I love to develop_";}
+    56%{content: "I love to develo_";}
+    57%{content: "I love to devel_";}
+    58%{content: "I love to deve_";}
+    59%{content: "I love to dev_";}
+    60%{content: "I love to de_";}
+    61%{content: "I love to d_";}
+    62%{content: "I love to _";}
+    63%{content: "I love t_";}
+    64%{content: "I love _";}
+    65%{content: "I lov_";}
+    66%{content: "I lo_";}
+    67%{content: "I l_";}
+    68%{content: "I _";}
+    69%{content: "_";}
+    70%{content: "_";}
+    
+}
+.bg-img .txt-bg p{
+    font-size: 14px;
+    color: #ffffffb0;
+}
+.txt-bg .btn{
+    padding-top: 20px;
+}
+.txt-bg .btn1-bg{
+    cursor: pointer;
+    background: #0779e4;
+    border: 1px solid #0779e4;
+    border-radius: 10px;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 15px;
+}
+.txt-bg .btn2-bg{
+    cursor: pointer;
+    padding: 15px 40px;
+    color: #0779e4;
+    background-color: #fff;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.txt-bg nav{
+    padding-top: 27px;
+}
+.txt-bg nav a{
+    color: #fff;
+    padding-left: 10px;
+    text-decoration: none;
+    font-size: 14px;
+}
+/*  */
+
+.container .row{
+    padding-top: 80px;
+}
+.row .img-ab{
+    float: left;
+    background-image: url(../img/about.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 600px;
+    width: 50%;
+    margin: 100px 0;
+    overflow: hidden;
+}
+.row .txt-ab{
+    width: 50%;
+    float: right;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.row .txt-ab p{
+    padding: 25px 0;
+    color: #626262d7;
+    line-height: 22px;
+}
+.row .txt-ab h2{
+    font-size: 40px;
+    color: #000000c2;
+}
+.row .txt-ab h3{
+    font-size: 25px;
+    color: #000000ca;
+}
+.row .txt-ab .btns{
+    padding-bottom: 15px;
+}
+.row .btns .btn-ab{
+    padding: 8px 16px;
+    background-color: #0779e4;
+    color: #fff;
+    border: 1px solid #0779e4;
+    border-radius: 7px;
+    font-size: 17px;
+}
+ .row .btns .btn-ab2{
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    color: #80808078;
+}
+ /*    */
+
+.services{
+    background-color: #f1f1f1e4;
+    width: 100%;
+    padding: 80px 0;
+}
+.container .heading{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+.container .heading p{
+    color: #0079c4;
+    font-size: 12px;
+}
+.container .heading h2{
+    color: rgba(0, 0, 0, 0.799);
+    font-size: 40px;
+    font-weight: 700;
+}
+.container .row{
+    width: 100%;
+}
+.container .row .col{
+    background-color: #fff;
+    width: 32%;
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+}
+.row .txt-card{
+    width: 100%;
+    padding: 10px;
+}
+.row .col .icon{
+    background: blue;
+    display: inline-block;
+    width: 70px;
+    height: 66px;
+    text-align: center;
+    padding: 4px;
+}
+.row .col .icon i{
+    font-size: 40px;
+}
+.fa-caret-down::before{
+    font-size: 29px;
+    color: blue;
+    margin-top: 41px;
+}
+.container .row .col h2{
+    padding: 25px 0;
+    color: blue;
+}
+.container .row .col p{
+    padding-bottom: 12px;
+    line-height: 30px;
+    color: darkgrey;
+}
+.end-Q{
+    padding: 20px 0;
+}
+.end-Q p{
+    padding: 10px 0;
+    color: #0000008f;
+    font-size: 14px;
+}
+.end-Q h4{
+    color: #000000c3;
+    font-size: 15px;
+}
+/*   */
+
+.icons{
+    z-index: 1;
+    position: relative;
+    height: 230px;
+    background-image: url(../img/bg_3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container .card{
+    float: left;
+    width: 33%;
+}
+.container .card .ico-txt{
+    margin: 65px auto;
+}
+.container .card .ico-txt .ico span i{
+    font-size: 75px;
+}
+.container .card .ico-txt .ico{
+    display: inline-block;
+}
+.container .card .ico-txt .test{
+    display: inline-block;
+}
+.icons .overlay{
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-color: #007cc9bf;
+    position: absolute;
+    inset: 0;
+    opacity: .9;
+}
+/*   */
+
+.imgs-1{
+    background-image: url(../img/photo1.jpg);
+}
+.imgs-2{
+    background-image: url(../img/photo2.jpg);
+}
+.imgs-3{
+    background-image: url(../img/photo3.jpg);
+}
+.imgs-4{
+    background-image: url(../img/photo4.jpg);
+}
+.imgs-5{
+    background-image: url(../img/photo5.jpg);
+}
+.imgs-6{
+    background-image: url(../img/photo6.jpg);
+}
+.imgs{
+    margin: 15px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 47%;
+    float: left;
+    padding: 15px;
+    position: relative;
+    overflow: hidden;
+    height: 350px;
+}
+.zoom2{
+    height: 442px;
+}
+.zoom1{
+    height: 317px;
+}
+.imgs .overlay{
+    transition: all .4s;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    inset: 0;
+    background-color: #0079c4b8;
+    opacity: 0;
+    z-index: 1;
+    color: white;
+}
+.imgs:hover .overlay{
+    opacity: 1;
+}
+.imgs .overlay .txt-lay{
+    text-align: center;
+    padding-top: 147px;
+}
+.imgs .overlay .txt-lay a{
+    color: #ffffff;
+    text-decoration: none;
+}
+/*    */
+
+.TESTIMONIAL{
+    width: 100%;
+    padding-top: 80px;
+}
+.profile{
+    width: 30%;
+    float: left;
+    background-color: #ffffff;
+    padding: 11px 22px;
+    margin: 0 16px;
+}
+.review{
+    position: relative;
+}
+.profile .review img{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    border-radius: 50%;
+    display: inline-block;
+}
+.profile .txt-review p{
+    padding: 15px 0;
+    color: #bbbbbb;
+    line-height: 30px;
+    width: 100%;
+}
+.profile .review span i{
+    position: absolute;
+    bottom: 0px;
+    left: 50px;
+    font-size: 25px;
+    width: 27px;
+    text-align:center;
+    color: white;
+    height: 27px;
+    border-radius: 50%;
+    background: #0779e4;
+}
+.profile .review p{
+    color: #0079c4;
+    font-size: 12px;
+}
+.profile .review .pro{
+    display: inline-block;
+}
+/*    */
+
+.cardblog{
+    padding: 15px 10px;
+    float: left;
+    width: 50%;
+}
+.txtblog{
+    background-color: white;
+    padding: 22px;
+}
+.txtblog span{
+    font-size: 12px;
+    padding: 10px;
+}
+.cardblog .recant{
+    width: 100%;
+    height: 340px;
+    background-image: url(../img/image_1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.cardblog .txtblog a{
+    color: black;
+    font-size: 17px;
+    text-decoration: none;
+}
+.cardblog .txtblog a:hover{
+    color: rgba(55, 55, 255, 0.916);
+}
+.cardblog .txtblog p{
+    padding: 12px 0;
+    font-size: 14px;
+    color: gray;
+}
+.cardblog .txtblog .ico-2{
+    padding-bottom: 20px;
+}
+/*    */
+
+.crd{
+    float: left;
+    margin: 16px;
+    padding: 25px;
+    width: 30%;
+    text-align: center;
+    background-color: white;
+}
+.paragraph{
+    padding: 0 10px;
+    width: 100%;
+    font-size: 16px;
+    line-height: 30px;
+    color: #999999;
+}
+.crd h2{
+    color: #306df2;
+}
+.crd span{
+    color: #306df2;
+}
+.crd h2{
+    font-size: 41px;
+    padding: 30px 0;
+}
+.btn button{
+    padding: 16px 51px;
+    border-radius: 7px;
+    border: 1px solid blue;
+    background-color: transparent;
+    color: blue;
+}
+.btn{    
+    padding-top: 50px;
+}
+.btn button:hover{
+    color: white;
+    background-color: #0079c4;
+    border: 1px solid blue;
+}
+/*   */
+
+.contact{
+    width: 100%;
+    padding-top: 80px;
+}
+.infromtion{
+    width: 100%;
+    background-color: white;
+}
+.infromtion .text{
+    float: left;
+    width: 31%;
+}
+.perant{
+    display: flex;
+}
+.pro-max{
+    font-size: 16px;
+    color: gray;
+}
+.infromtion .first{
+    padding: 40px 17px;
+}
+.infromtion .first h3{
+    font-size: 28px;
+}
+.infromtion .first p{
+    font-size: 14px;
+    color: gray;
+}
+.infromtion .texts{
+    padding: 20px 17px;
+}
+.infromtion .input{
+    padding-left: 17px;
+    padding-top: 80px;
+}
+.zrar{
+    height: 45px;
+    background: #fff;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 14px;
+    border-radius: 2px;
+    border: 2px solid #00000036;
+    display: inline-block;
+    width: 47.2%;
+    margin: 3px 0;
+}
+
+.put{
+    width: 95%;
+}
+.infromtion .input .submit{
+    font-size: 17px;
+    padding: 9px 6px;
+    border: 1px solid blue;
+    background-color: blue;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+}
+.infromtion .follow{
+    padding-left: 17px;
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+.infromtion .follow h4{
+    font-size: 17px;
+    padding: 18px 0;
+}
+.infromtion .follow a{
+    text-decoration: none;
+    padding: 10px;
+}
+.infromtion .follow a:hover{
+    color: black;
+
+}
+/*    */
+
+.tom{
+    padding: 36px 12px;
+    background-color: #0779e4;
+}
+.txts{
+    display: inline-block;
+}
+.btnsss{
+    float: right;
+}
+.tom .btn-3{
+    padding: 9px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 12px 60px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 18px;
+    background-color: #1111e500;
+    border: 1px solid white;
+    color: white;
+}
+.tom .btn-3:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+}
+/*   */
+
+.one{
+    float: left;
+    width: 33%;
+    padding-left: 32px;
+}
+.fa-brands{
+    float: left;
+    background-color: #0079c4;
+    float: left;
+    background-color: #0079c4;
+    border: 1px solid #0079c4;
+    border-radius: 50%;
+    text-align: center;
+    width: 40px;
+    margin: 20px;
+    color: white;
+}
+.one h2{
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+.one p{
+    font-size: 16px;
+    line-height: 1.8;
+    color: #999999;
+}
+.one li{
+    list-style-type: none;
+    font-size: 14px;
+
+}
+.the-end li{
+    padding: 13px;
+}
+.the-end span i{
+    font-size: 18px;
+    float: left;
+    padding: 0px;
+    width: 35px;
+    color: blue;
+}
+.one i{
+    padding: 10px 0;
+    cursor: pointer;
+}
+.one li a{
+    color: gray;
+    text-decoration: none;
+}
+.one li a:hover{
+    color: #0779e4;
+}
+.fa-arrow-right{
+    font-size: 12px;
+}
+
+@media screen and (max-width: 820px) {
+    body{
+        background-color: bisque;
+    }    
+    .row .img-ab{
+        width: 126vw;
+    }
+    .crd{
+        width: 51%;
+    }
+}
+
+@media screen and (max-width: 768){
+    body{
+        background-color: red;
+    }
+    .container .row .col{
+        width: 100%;
+    }
+    .profile {
+        padding: 17px 22px;
+        width: 56%;
+        margin: 6px 45px;
+    }
+    .crd{
+        width: 60%;
+    }
+    .row .txt-ab{
+    width: 65%;
+    text-align: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body{
+        background-color: aqua;
+    }
+    .container .row .col{
+        width: 100%;
+    }
+    .profile {
+    padding: 17px 22px;
+    margin: 13px 16px;
+    }
+    .crd{
+        width: 50%;
+    }
+}
